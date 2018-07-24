@@ -26,7 +26,11 @@ class __StatefulWidgetState extends State<_StatefulWidget> {
               child: new Container(
                 child: new Column(
                   children: <Widget>[
-                    new Image.asset('images/masterung_round.png', width: 100.0,height: 100.0,),
+                    new Image.asset(
+                      'images/masterung_round.png',
+                      width: 80.0,
+                      height: 80.0,
+                    ),
                     new Text(
                       "Master UNG",
                       style: new TextStyle(
